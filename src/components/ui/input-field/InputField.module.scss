@@ -1,0 +1,22 @@
+.input-field {
+    width: 525px;
+    height: 60px;
+    background: #FFFFFF ;
+    border-radius: 10px;
+    padding-left: 4%;
+    border: none;
+    font: normal normal normal 45px/59px Bebas Neue;
+    letter-spacing: 4.5px;
+
+
+    &::placeholder {
+        color: #B5B3C1;
+        // font-size: 1.8em;
+        font: normal normal normal 35px/42px Bebas Neue Pro;
+    }
+
+    &:focus {
+        outline: none !important;
+        box-shadow: 0 0 15px #140663;
+    }
+}

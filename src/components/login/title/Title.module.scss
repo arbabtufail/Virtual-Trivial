@@ -1,0 +1,30 @@
+.title-text-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+    transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+    background: var(--unnamed-color-f9ce29) 0% 0% no-repeat padding-box;
+    background: #F9CE29 0% 0% no-repeat padding-box;
+    font: normal normal 300 143px/82px Neon;
+    letter-spacing: 0px;
+    color: #222027;
+    opacity: 1;
+    z-index: 2;
+
+}
+
+@media only screen and (min-width: 1675px) and (max-width: 1680px) {
+    .title-text-container{
+        height: 160px;
+        font: normal normal 300 120px Neon;
+        }
+}
+
+@media only screen and (min-width: 1535px) and (max-width: 1540px) {
+  .title-text-container{
+    height: 135px;
+    font: normal normal 300 100px Neon;
+    }
+}
